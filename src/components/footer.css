@@ -1,0 +1,103 @@
+.mera_footer {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    /* min-height: 20rem; */
+    margin: 5rem 0;
+    padding: 0 2rem;
+    gap: 1.3rem;
+}
+
+.foot-list {
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.39rem;
+}
+
+.foot-list>h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #29fd53;
+    letter-spacing: 1px;
+}
+
+.foot-list a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    gap: 1.5rem;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+
+}
+
+.foot-list a:hover {
+    text-decoration: underline;
+}
+
+.foot-list a:hover .icon1 {
+    color: rgb(226, 44, 74);
+    transition: all 0ms;
+}
+
+.foot-list a:hover .icon2 {
+    color: blue;
+    transition: all 0s;
+}
+
+.foot-list a:hover .icon3 {
+    color: rgb(109, 190, 216);
+    transition: all 0s;
+}
+
+.foot-list a:hover .icon4 {
+    color: rgb(31, 31, 127);
+    transition: all 0s;
+}
+
+.foot-list a:hover .icon5 {
+    color: green;
+    transition: all 0s;
+}
+
+.icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.foot-list>p {
+    font-size: 1.1rem;
+}
+
+
+.foot-list2 {
+    gap: 1.8rem;
+}
+
+.foot-list4 {
+    justify-content: flex-end;
+}
+
+
+@media only screen and (width >=320px) and (width <=1164px) {
+    .mera_footer {
+        flex-wrap: wrap;
+        margin: 1rem 0;
+        padding: 0 1rem;
+    }
+
+    .foot-list>h2 {
+        font-size: 1.5rem;
+    }
+    .foot-list a {
+        font-size: .9rem;
+        gap: 1rem;
+    }
+    .foot-list>p{
+        font-size: .9rem;
+    }
+}
