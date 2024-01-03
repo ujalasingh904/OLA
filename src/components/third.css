@@ -111,7 +111,8 @@
     .name1 img {
         height: 20rem;
         width: 16rem;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
+        position: static !important;
     }
     #para {
         font-size: .9rem !important;
